@@ -10,8 +10,8 @@ unsigned int collatzLen(uint64_t num) {
   return 1;
 }
 
-unsigned int seqCollatz(unsigned int *maxlen, 
-                        uint64_t lbound, 
+unsigned int seqCollatz(unsigned int *maxlen,
+                        uint64_t lbound,
                         uint64_t rbound) {
   return 1;
 }
