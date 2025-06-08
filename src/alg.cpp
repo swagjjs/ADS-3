@@ -34,7 +34,7 @@ unsigned int seqCollatz(unsigned int *maxlen,
                         uint64_t lbound,
                         uint64_t rbound) {
   if (maxlen == nullptr || lbound < 2 || lbound > rbound) {
-    *maxlen = 0;  // Исправлено: инициализация maxlen даже в случае ошибки
+    *maxlen = 0;  
     return 0;
   }
   unsigned int max_length = 0;
@@ -46,7 +46,7 @@ unsigned int seqCollatz(unsigned int *maxlen,
       result_num = num;
     }
   }
-  *maxlen = max_length;  // Исправлено: записываем длину по указателю
+  *maxlen = max_length;  
   return result_num;
 }
 
